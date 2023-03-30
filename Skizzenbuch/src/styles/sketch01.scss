@@ -1,0 +1,86 @@
+@import "../fonts/fonts.css";
+
+$color1: #247ba0;
+$color2: #ffe066;
+$color3: #f25f5c;
+
+nav li {
+    list-style: none;
+}
+
+.containerMain {
+    width: 750px;
+    height: 750px;
+    background-color: black;
+    border: solid black 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.container-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.container-14 {
+    grid-column: 2/3;
+    grid-row: 4/7;
+}
+
+.container-10 {
+    grid-row: 3/7;
+}
+
+.container-1,
+.container-3,
+.container-6,
+.container-9,
+.container-12,
+.container-16 {
+    background-color: $color3;
+}
+
+.container-2,
+.container-4,
+.container-8,
+.container-10,
+.container-15 {
+    background-color: $color2;
+}
+
+.container-5,
+.container-7,
+.container-11,
+.container-13,
+.container-14 {
+    background-color: $color1;
+}
+
+
+
+#back {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+@media (max-width: 425px) {
+    .containerMain {
+        width: 200px;
+        height: 200px;
+        border: solid black 5px;
+        grid-gap: 5px;
+    }
+}

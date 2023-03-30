@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import "../fonts/fonts.css";
+
+nav li {
+    list-style: none;
+    padding-left: 5%;
+}
+
+#back {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    button {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 64px;
+        text-align: center;
+        text-transform: uppercase;
+
+        width: 35%;
+        margin: 0.5em;
+        padding: 20px;
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+        transition: box-shadow 100ms 50ms cubic-bezier(0.75, 0.29, 0.42, 0.84);
+        &:hover {
+            box-shadow: 5px 5px 15px -10px #111111;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .box{
+        margin-top: 5em;
+    }
+    .button-grid{
+        button{
+            width: 45%;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

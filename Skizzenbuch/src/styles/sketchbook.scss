@@ -1,0 +1,277 @@
+@import "../fonts/fonts.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ------ Navigation ----- */
+
+#navA {
+    margin-left: 25%;
+}
+
+#blackNav {
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    position: sticky;
+    top: 0px;
+
+    .linksW {
+        margin-right: 15%;
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 1rem;
+                display: block;
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 18px;
+            }
+
+            a:hover {
+                font-weight: bold;
+                color: #1f1f1f;
+            }
+        }
+    }
+
+    .footer {
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 0.5rem;
+                display: block;
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 14px;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: #1f1f1f;
+            }
+        }
+    }
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.toggleButton {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    display: none;
+    cursor: pointer;
+
+    h4 {
+        font-size: 3em;
+    }
+}
+
+.footer {
+    display: none;
+    width: 100%;
+    height: 300px;
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* ------ Header ----- */
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+/* ------ Main ----- */
+
+main {
+
+    height: 740px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 64px;
+        margin-top: 7%;
+        text-align: center;
+    }
+
+    h1:hover {
+        text-decoration: underline;
+    }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    h2:hover {
+        text-decoration: underline;
+    }
+}
+
+/* ------ Footer ----- */
+
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    
+
+    p {
+        color: white;
+        text-align: center;
+        padding: 4em;
+    }
+
+    a {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+/* ----------- Mobile ---------- */
+
+@media (max-width: 425px) {
+    /* ------ Navigation ----- */
+    body {
+        overflow: hidden;
+    }
+
+    #logo {
+        display: none;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .linksW ul {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .footer {
+            display: none;
+            flex-direction: column;
+            align-items: left;
+            width: 100%;
+        }
+    }
+
+    footer {
+        display: none;
+    }
+
+    nav.active {
+        height: 550px;
+    }
+
+    .footer.active {
+        display: flex;
+        position: absolute;
+        top: 425px;
+    }
+
+    .linksW ul.active {
+        display: flex;
+        position: absolute;
+        top: 75px;
+    }
+
+    .toggleButton {
+        display: flex;
+    }
+
+    /* ------ Header ----- */
+
+    header h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 200px;
+    }
+    /* ------ Main ----- */
+    main {
+        h1 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            text-align: center;
+            padding: 1rem;
+        }
+        h2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+        }
+    }
+}
