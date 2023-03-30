@@ -1,4 +1,4 @@
-Projektname: "Responsive Webseiten-Entwicklung mit HTML, CSS und JS"
+# Skizzenbuch: "Responsive Webseiten-Entwicklung mit HTML, CSS und JS"
 Dieses Projekt wurde im Rahmen meines Webentwicklungs-Kurses erstellt und beschäftigt sich mit der Erstellung von responsiven Webseiten mit HTML, CSS und JS. Im Kurs habe ich gelernt, wie man Packs mit NPM installiert und einen lokalen Server laufen lässt.
 
 Die Webseite, die ich erstellt habe, ist responsiv und passt sich automatisch verschiedenen Bildschirmgrößen an. Ich habe verschiedene Layout-Techniken wie Grid und Flexbox verwendet, um die Webseite zu gestalten und die Elemente zu positionieren.
