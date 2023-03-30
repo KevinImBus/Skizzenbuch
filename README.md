@@ -1,4 +1,5 @@
-## Skizzenbuch: "Responsive Webseiten-Entwicklung mit HTML, CSS und JS"
+## Skizzenbuch: "Responsive Webseiten-Entwicklung"
+
 Dieses Projekt beschäftigt sich mit der Erstellung von responsiven Webseiten mit HTML, CSS und JS. Vor der Umsetzung des Projekts habe ich das Design der Webseite in Figma erstellt, einem Tool zur Erstellung von Designs und Prototypen.
 
 Das Layout wurde in schwarz-weiß gestaltet, um das Design einfach und modern zu halten und gleichzeitig sicherzustellen, dass die Lesbarkeit verbessert wird. Anschließend wurde das Design in HTML, CSS und JS umgesetzt, um eine voll funktionsfähige Webseite zu erstellen.
@@ -6,6 +7,11 @@ Das Layout wurde in schwarz-weiß gestaltet, um das Design einfach und modern zu
 Die Webseite, die ich erstellt habe, ist responsiv und passt sich automatisch verschiedenen Bildschirmgrößen an. Dabei habe ich verschiedene Layout-Techniken wie Grid und Flexbox verwendet, um die Webseite zu gestalten und die Elemente zu positionieren.
 
 Um die Webseite interaktiver zu gestalten, habe ich JavaScript-Programmierung gelernt und verwendet, um ein Zufalls Begrüßungs tool zu erstellen.
+
+###Technologien
+- HTML
+- CSS mit SCSS
+- JavaScript
 
 ### Tutorial: Wie man die Webseite startet
 Um die Webseite zu starten, führen Sie bitte die folgenden Schritte aus:
