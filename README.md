@@ -8,7 +8,7 @@ Die Webseite, die ich erstellt habe, ist responsiv und passt sich automatisch ve
 
 Um die Webseite interaktiver zu gestalten, habe ich JavaScript-Programmierung gelernt und verwendet, um ein Zufalls Begrüßungs tool zu erstellen.
 
-###Technologien
+### Technologien
 - HTML
 - CSS mit SCSS
 - JavaScript
