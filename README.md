@@ -1,10 +1,24 @@
 ## Skizzenbuch: "Responsive Webseiten-Entwicklung mit HTML, CSS und JS"
-Dieses Projekt wurde im Rahmen meines Webentwicklungs-Kurses erstellt und beschäftigt sich mit der Erstellung von responsiven Webseiten mit HTML, CSS und JS. Im Kurs habe ich gelernt, wie man Packs mit NPM installiert und einen lokalen Server laufen lässt.
+Dieses Projekt beschäftigt sich mit der Erstellung von responsiven Webseiten mit HTML, CSS und JS. Vor der Umsetzung des Projekts habe ich das Design der Webseite in Figma erstellt, einem Tool zur Erstellung von Designs und Prototypen.
 
-Die Webseite, die ich erstellt habe, ist responsiv und passt sich automatisch verschiedenen Bildschirmgrößen an. Ich habe verschiedene Layout-Techniken wie Grid und Flexbox verwendet, um die Webseite zu gestalten und die Elemente zu positionieren.
+Das Layout wurde in schwarz-weiß gestaltet, um das Design einfach und modern zu halten und gleichzeitig sicherzustellen, dass die Lesbarkeit verbessert wird. Anschließend wurde das Design in HTML, CSS und JS umgesetzt, um eine voll funktionsfähige Webseite zu erstellen.
 
-Die Webseite enthält auch interaktive Elemente, die mit JavaScript erstellt wurden. Ich habe grundlegende JavaScript-Programmierung gelernt und verwendet, um eine Bildergalerie und eine Formularüberprüfung zu erstellen.
+Die Webseite, die ich erstellt habe, ist responsiv und passt sich automatisch verschiedenen Bildschirmgrößen an. Dabei habe ich verschiedene Layout-Techniken wie Grid und Flexbox verwendet, um die Webseite zu gestalten und die Elemente zu positionieren.
 
-Das Design der Webseite ist minimalistisch und modern. Ich habe eine Farbpalette ausgewählt, die zu meinem Thema passt, und einfache Schriftarten verwendet, um die Lesbarkeit zu verbessern.
+Um die Webseite interaktiver zu gestalten, habe ich JavaScript-Programmierung gelernt und verwendet, um ein Zufalls Begrüßungs tool zu erstellen.
 
-Dieses Projekt zeigt, wie man grundlegende Webentwicklungsfähigkeiten wie HTML, CSS und JavaScript verwenden kann, um eine responsive Webseite zu erstellen. Das Repository enthält alle erforderlichen Dateien, um das Projekt zu reproduzieren oder zu erweitern, sowie eine Anleitung zum Einrichten eines lokalen Servers.
+### Tutorial: Wie man die Webseite startet
+Um die Webseite zu starten, führen Sie bitte die folgenden Schritte aus:
+
+Öffnen Sie die Kommandozeile oder das Terminal und navigieren Sie zum Projektordner.
+Geben Sie den Befehl npm install ein, um alle erforderlichen Pakete und Abhängigkeiten zu installieren.
+Geben Sie den Befehl npm start ein, um den lokalen Server zu starten.
+Öffnen Sie Ihren bevorzugten Webbrowser und geben Sie http://localhost:3000 in die Adressleiste ein, um die Webseite aufzurufen.
+Sie sollten nun die Webseite auf Ihrem lokalen Server sehen und damit interagieren können. Das Repository enthält alle erforderlichen Dateien, um das Projekt zu reproduzieren oder zu erweitern. Außerdem habe ich das Design auf Figma erstellt und einen Link zum Design in das Repository aufgenommen. Der Link zum Design ist hier verfügbar: https://www.figma.com/file/qEVGtTGZsp4UTLd6ln57RM/Untitled?node-id=0%3A1&t=cDl5GICiY2GS5NYy-1. Mit diesem Link können andere Benutzer das Design einsehen und verstehen, wie die Webseite gestaltet wurde.
+
+
+
+
+
+
+
